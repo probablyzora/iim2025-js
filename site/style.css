@@ -1,0 +1,10 @@
+.bloc {
+    background-color: wheat;
+    color:black;
+    height:100px;
+
+}
+.dark {
+    background-color: black;
+    color:white;
+}
