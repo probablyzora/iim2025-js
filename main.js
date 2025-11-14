@@ -24,4 +24,4 @@ changeTheme.addEventListener('click', function(){
 buttonDropdown.addEventListener('click', function(){
     dropdown.classList.toggle('hidden')
 
-})
+}) 
