@@ -145,13 +145,39 @@ footer{
     font-size: 18px;
 }
 
-button{
+button.buttonDropdown{
+  justify-content: center;
+  text-align: center;
   display: flex;
-  text-align: left;
-  flex-direction:column;
-  
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+button.changeTheme{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: (100% / 6);
+  height: auto;
+}
+button.buttonDropdown:hover{
+  background-color: tomato;
+}
+button.changeTheme:hover{
+  background-color: gray;
 }
 .dark{
   color: white;
   background-color: black;
+}
+ul.dropdown{
+  overflow: hidden;
+  max-height: auto;
+  transition: max-height 4s ease-in;
+}
+.hidden{
+  overflow:hidden;
+  max-height: 0px;
+  transition-property: max-height 4s ease-out;
 }

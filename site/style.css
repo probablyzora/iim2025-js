@@ -1,10 +1,20 @@
+body.dark {
+    background-color: black;
+    color:white;
+}
 .bloc {
     background-color: wheat;
     color:black;
     height:100px;
 
 }
+.hidden {
+    transition: '0.4s';
+    visibility: hidden;
+}
 .dark {
     background-color: black;
     color:white;
+}
+button {
 }
