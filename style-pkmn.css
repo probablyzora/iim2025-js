@@ -174,10 +174,12 @@ button.changeTheme:hover{
 ul.dropdown{
   overflow: hidden;
   max-height: auto;
-  transition: max-height 4s ease-in;
+  transition: max-height 1s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 .hidden{
   overflow:hidden;
+  background-color: yellowgreen;
+  transition: max-height 1s ease-in-out;
   max-height: 0px;
-  transition-property: max-height 4s ease-out;
 }

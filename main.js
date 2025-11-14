@@ -5,6 +5,7 @@ let buttonDropdown = document.getElementById('buttonDropdown')
 let dropdown = document.getElementById('dropdown')
 let isDarkTheme = false
 
+dropdown.classList.add('hidden')
 
 changeTheme.addEventListener('click', function(){
     // Change le body et les boutons separement
